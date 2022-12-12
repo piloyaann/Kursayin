@@ -1,0 +1,494 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+
+    font-family: 'Merriweather Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Varela Round', sans-serif;
+}
+#exit-id{
+    color: #333;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    background-color: rgb(247, 247, 247);
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    box-shadow: 0 5px 20px -5px rgba(0,0,0,.2);
+}
+.container-navbar{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+}
+.logo img{
+    width: 110px;
+    height: 110px;
+}
+.menu{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.menu ul{
+    position: absolute;
+    right: 0;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    width: 80%;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: #ea4723;
+    font-size: 20px;
+}
+
+.main
+{
+    background-position: 100%;
+    background-color: #f4e3cd;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-image: url("../images/3475_06.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 745.76px;
+    position: relative;
+    overflow: hidden;
+}
+.content-a
+{
+    animation-iteration-count: 2;
+    background-image: url(../images/164459900791.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    bottom: 100px;
+    left: -100px;
+    animation-name: snow;
+    animation-duration: 15s;
+    animation-delay: 3s;
+}
+@keyframes snow
+{
+    0%
+    {
+        bottom: 100px;
+        left: -25px;
+    }
+    100%
+    {
+        bottom: 100px;
+        left: 100%;
+    }
+}
+.content-b
+{
+    animation-iteration-count: 2;
+    background-image: url(../images/164459900791.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 110px;
+    height: 80px;
+    position: absolute;
+    bottom: 300px;
+    left: -100px;
+    animation-name: snow2;
+    animation-duration: 15s;
+    animation-delay: 5s;
+}
+@keyframes snow2
+{
+    0%
+    {
+        bottom: 300px;
+        left: -25px;
+    }
+    30%{
+        transform: rotate(360deg);
+    }
+    100%
+    {
+        bottom: 300px;
+        left: 100%;
+    }
+}
+.content-c
+{
+    animation-iteration-count: 2;
+    background-image: url(../images/164459900791.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 110px;
+    height: 80px;
+    position: absolute;
+    bottom: 500px;
+    left: -100px;
+    animation-name: snow3;
+    animation-duration: 20s;
+    animation-delay: 4s; 
+}
+@keyframes snow3
+{
+    0%
+    {
+        bottom: 500px;
+        left: -50px;
+    }
+    100%
+    {
+        bottom: 500px;
+        left: 100%;
+    }
+}
+.content
+{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    top: 270px;
+    left: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.text2
+{
+    font-size: 300%;
+    font-family: 'Noto Sans Display', sans-serif; 
+    font-family: 'Quicksand', sans-serif; 
+    margin-bottom: 30px;
+    margin-top: 0;
+    color: #ea4723;
+}
+
+.btn1
+{
+    position: absolute;
+    padding: 18px 25px 18px 25px;
+    border-radius: 30px;
+    border: none;
+    width: 200px;
+    color:#fff;
+    background-color: #ea4723;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    bottom: 10px;
+    left: 40px;
+}
+.btn1:hover
+{
+    cursor: pointer;
+    transition: .5s;
+    background-color: white;
+    color: #ea4723;
+}
+.sidebar
+{
+    width: 70%;
+    height: 150px;
+    margin: 100px auto;
+}
+.h2_1
+{
+    font-family: 'Noto Sans Display', sans-serif; 
+    font-family: 'Quicksand', sans-serif;   
+    font-size: 200%;
+    margin-bottom: 30px;
+}
+.p1
+{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;    
+    font-size: 17px;
+    color: black;
+}
+.footer1
+{
+    width: 100%;
+    height: 150px;
+    background-color: #fac769;
+}
+.h2_2
+{
+    font-family: 'Noto Sans Display', sans-serif; 
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 200%;
+    color: cornsilk;
+    text-align: center;
+    line-height: 150px;
+}
+.h2_3
+{
+    font-family: 'Noto Sans Display', sans-serif; 
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 200%;
+    margin: 100px 0 20px 230px;
+}
+.conteiner
+{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+.product-images
+{
+    border-radius: 7px;
+    width: 320px;
+    height: 500px;
+    margin: 0px 20px 0 20px;
+    background-color: orange;
+    padding-bottom: 30px;
+}
+
+.h1-jpg
+{
+    width: 300px;
+    height: 260px;
+}
+.hdr2 .h2-jpg
+{
+    width: 300px;
+    height: 250px;
+}
+.t1
+{
+    width: 300px;
+    height: 220px;
+    margin-bottom: 15px;
+}
+.conteiner h2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 20px 0 25px 20px;
+}
+.conteiner p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin: 0 20px 25px 20px;
+    color: #fff;
+}
+.h2-jpg
+{
+    width: 300px;
+    height: 200px;
+}
+.h2-text
+{
+    font-family: 'Noto Sans Display', sans-serif; 
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 200%;
+    margin: 70px 0 20px 230px;
+}
+.dives
+{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+.items{
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    float: left;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.dives img
+{
+    width: 100%;
+    height: 100%;
+}
+.dives img:hover
+{
+    transition: .5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.footer2
+{
+    width: 100%;
+    height: 150px;
+    background-color: #fac769;
+    padding-top: 30px;
+    display: flex;
+}
+.foot
+{
+    width: 600px;
+    height: 100px;
+    margin: 0 200px;
+}
+.h3-1
+{
+    font-family: 'Noto Sans Display', sans-serif; 
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 15px;
+    color: cornsilk;
+    margin-bottom: 30px;
+}
+.h2-3
+{
+    font-family: 'Noto Sans Display', sans-serif; 
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 200%;
+    color: cornsilk;
+}
+.baton
+{
+    margin: 30px 100px 0 0;
+}
+.btn2
+{
+    padding: 18px 25px 18px 25px;
+    border-radius: 30px;
+    border: none;
+    width: 200px;
+    color:#fff;
+    background-color: #ea4723;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.btn2:hover
+{
+    cursor: pointer;
+    transition: .5s;
+    background-color: white;
+    color: #ea4723;
+}
+.h2_4
+{
+    font-family: 'Noto Sans Display', sans-serif; 
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 200%;
+    margin: 100px 0 20px 0;
+    text-align: center;
+}
+.header
+{
+    width: 79%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.item-1
+{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.h2-item
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 400%;
+    color: #fac769;
+}
+.h3-item
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 35px;
+}
+.header p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0 10px 20px 10px;
+    color: grey;
+}
+.a-1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 20px 10px 20px 10px;
+    color: lightsalmon;
+    text-decoration: none;
+}
+.h2-item1
+{
+    font-family: 'Noto Sans Display', sans-serif; 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    color: lightslategray;
+    text-align: center;
+}
+.h2-item2
+{
+    font-family: 'Noto Sans Display', sans-serif; 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 200%;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.iframe1
+{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 50px;
+}
+.footer
+{
+    width: 70%;
+    height: 60px;
+    margin: 0 auto;
+}
+.ft1
+{
+    width: 400px;
+    height: 80px;
+    margin: 0 auto;
+}
+.footer p
+{
+    font-family: 'Noto Sans Display', sans-serif; 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    color: grey;
+    text-align: center;
+}
